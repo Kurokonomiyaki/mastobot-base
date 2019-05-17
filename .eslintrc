@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "max-len": [2, 200],
+    "arrow-body-style": "off",
+    "arrow-parens": "off",
+    "import/prefer-default-export": "off",
+    "no-await-in-loop": "off"
+  },
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
+  }
+}
