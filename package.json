@@ -5,6 +5,7 @@
   "main": "compiled/index.js",
   "scripts": {
     "compile": "babel src --out-dir compiled",
+    "token": "babel-node src/command/token.js",
     "execute": "babel-node",
     "test": "jest --passWithNoTests"
   },
@@ -25,7 +26,7 @@
     "eslint": "5.16.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.17.2",
-    "eslint-plugin-jest": "^22.5.1",
+    "eslint-plugin-jest": "22.5.1",
     "jest": "24.8.0"
   }
 }
